@@ -6,14 +6,10 @@
 
 std::vector<std::string> modelDirectories = {
     "/models/pretrain/yolo11s_ncnn_model",
-    "/models/pretrain/yolo11l_ncnn_model",
-    "/models/custom/horse_only_yolo11s_2080ti_1_ver13_20250106_ncnn_model"
 };
 
 std::vector<std::string> modelFileName = {
     "/model.ncnn",
-    "/model.ncnn",
-    "/horse-only-yolo11"
 };
 
 int main(int argc, char *argv[]) {

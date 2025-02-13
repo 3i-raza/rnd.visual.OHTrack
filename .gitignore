@@ -1,0 +1,6 @@
+*.mp4
+*.MP4
+*.jpg
+*.png
+build/
+.ipynb_checkpoints/

@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		48B89AF15BB01F4EE17DD353 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F5F362B0F1994301AC55D5FA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				5BA3947B6AFDE7E983404763 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				6F4A8873C0FB4D0D963F06D3 /* PBXTargetDependency */,
+				4215146839884EC0ADDD78CC /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		6B4DCFD337B36882504AD70A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DE9078351C464A168DCE0CE2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				9BB0B202E601577D9D4B063B /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0E9D00CFF9E84AAF9E7E7ECC /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/detector_yolo_inference.cpp */ = {isa = PBXBuildFile; fileRef = A6B2593BE9564AFBB99353B6 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/detector_yolo_inference.cpp */; };
+		1B37AFDD989F4EBD8D784E95 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/utils.h */ = {isa = PBXBuildFile; fileRef = 4485BA890AB24EC7B3AFE19E /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/utils.h */; };
+		3270741B53E5442EAC5C8046 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/nlohmann/json.hpp */ = {isa = PBXBuildFile; fileRef = 553D3C9A93F34B66BF23F098 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/nlohmann/json.hpp */; };
+		3F1C7F8023224D8E946C9FCE /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/detector_yolo_inference.hpp */ = {isa = PBXBuildFile; fileRef = 24BE6C25F98543DB87A5E297 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/detector_yolo_inference.hpp */; };
+		4ECB1299AA7D46D599C38D72 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4CD8136DA3A445B5B5794B7B /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/CMakeLists.txt */; };
+		69D27268F2794D46A898DBE9 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/detector_class_info.h */ = {isa = PBXBuildFile; fileRef = 11FAF83CAED74527B7EEF354 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/detector_class_info.h */; };
+		85486D4CBC324695849C0FDC /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/utils.cpp */ = {isa = PBXBuildFile; fileRef = D062AC12936E4F14A2041627 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/utils.cpp */; };
+		8AA79D0422784841BDC92865 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/boxinfo.h */ = {isa = PBXBuildFile; fileRef = 84BE300EDCE840EA998A37AF /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/boxinfo.h */; };
+		BAC4990BFA47484284984B5B /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/bounding_box_saver.h */ = {isa = PBXBuildFile; fileRef = 15BD8ED7F0D24481A73D4606 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/bounding_box_saver.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0779367B51404463A0304BE4 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		2B1651CD012641D880506073 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		3FF10160E43B48A4941F8417 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		933DFCB575AA473CB312479F /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		66FE4EFE3BFA43469C02A868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37DE814244AC4CD78BDD926F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B4DCFD337B36882504AD70A;
+			remoteInfo = ZERO_CHECK;
+		};
+		71DB6E5BE8F944A68B29E556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37DE814244AC4CD78BDD926F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF05CF0AAC57482907036E4E;
+			remoteInfo = Detection;
+		};
+		BF12F639587045B3B93CE401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37DE814244AC4CD78BDD926F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B4DCFD337B36882504AD70A;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11FAF83CAED74527B7EEF354 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/detector_class_info.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = detector_class_info.h; path = detector_class_info.h; sourceTree = SOURCE_ROOT; };
+		15BD8ED7F0D24481A73D4606 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/bounding_box_saver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bounding_box_saver.h; path = bounding_box_saver.h; sourceTree = SOURCE_ROOT; };
+		24BE6C25F98543DB87A5E297 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/detector_yolo_inference.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = detector_yolo_inference.hpp; path = detector_yolo_inference.hpp; sourceTree = SOURCE_ROOT; };
+		4485BA890AB24EC7B3AFE19E /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utils.h; path = utils.h; sourceTree = SOURCE_ROOT; };
+		4CD8136DA3A445B5B5794B7B /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4F71217EFB214D23B3F6A7AE /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		553D3C9A93F34B66BF23F098 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/nlohmann/json.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = json.hpp; path = nlohmann/json.hpp; sourceTree = SOURCE_ROOT; };
+		84BE300EDCE840EA998A37AF /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/boxinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = boxinfo.h; path = boxinfo.h; sourceTree = SOURCE_ROOT; };
+		854AC430FEF944F59F0C777C /* Detection */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDetection.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B2593BE9564AFBB99353B6 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/detector_yolo_inference.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = detector_yolo_inference.cpp; path = detector_yolo_inference.cpp; sourceTree = SOURCE_ROOT; };
+		D062AC12936E4F14A2041627 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utils.cpp; path = utils.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92B09CE967664CEEB6E3A30E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03773F7F85C04449A0E80C90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1FD94F77D91244E7981F6F2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BE5F570D7BD49CC8773FF92 /* Detection */ = {
+			isa = PBXGroup;
+			children = (
+				6EB146F8DE5240EBB625843C /* Source Files */,
+				326336300E9A4E89AF3C9765 /* Header Files */,
+				4CD8136DA3A445B5B5794B7B /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/CMakeLists.txt */,
+			);
+			name = Detection;
+			sourceTree = "<group>";
+		};
+		326336300E9A4E89AF3C9765 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				15BD8ED7F0D24481A73D4606 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/bounding_box_saver.h */,
+				84BE300EDCE840EA998A37AF /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/boxinfo.h */,
+				11FAF83CAED74527B7EEF354 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/detector_class_info.h */,
+				24BE6C25F98543DB87A5E297 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/detector_yolo_inference.hpp */,
+				553D3C9A93F34B66BF23F098 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/nlohmann/json.hpp */,
+				4485BA890AB24EC7B3AFE19E /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/utils.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		52F9FBD58C8540E99C08527B = {
+			isa = PBXGroup;
+			children = (
+				2BE5F570D7BD49CC8773FF92 /* Detection */,
+				786CE88FE1934D32862915AF /* ALL_BUILD */,
+				535912463FD040DABA2899F5 /* Products */,
+				1FD94F77D91244E7981F6F2E /* Frameworks */,
+				03773F7F85C04449A0E80C90 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		535912463FD040DABA2899F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				854AC430FEF944F59F0C777C /* Detection */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB146F8DE5240EBB625843C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B2593BE9564AFBB99353B6 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/detector_yolo_inference.cpp */,
+				D062AC12936E4F14A2041627 /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/utils.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		786CE88FE1934D32862915AF /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				FA9308E1DE3348D292D27163 /* CMake Rules */,
+				4F71217EFB214D23B3F6A7AE /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		FA9308E1DE3348D292D27163 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF05CF0AAC57482907036E4E /* Detection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C270F1CF168D4811BE12D874 /* Build configuration list for PBXNativeTarget "Detection" */;
+			buildPhases = (
+				3E95B8D9277D4D40870AD407 /* Sources */,
+				92B09CE967664CEEB6E3A30E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2381C78D2F484DF5A4BA86E0 /* PBXTargetDependency */,
+			);
+			name = Detection;
+			productName = Detection;
+			productReference = 854AC430FEF944F59F0C777C /* Detection */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37DE814244AC4CD78BDD926F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1620;
+			};
+			buildConfigurationList = 499FE56D7E8849F39284F643 /* Build configuration list for PBXProject "Detection" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				0779367B51404463A0304BE4 /* Debug */,
+				933DFCB575AA473CB312479F /* Release */,
+				3FF10160E43B48A4941F8417 /* MinSizeRel */,
+				2B1651CD012641D880506073 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 52F9FBD58C8540E99C08527B;
+			projectDirPath = "/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection";
+			projectRoot = "";
+			targets = (
+				48B89AF15BB01F4EE17DD353 /* ALL_BUILD */,
+				CF05CF0AAC57482907036E4E /* Detection */,
+				6B4DCFD337B36882504AD70A /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5BA3947B6AFDE7E983404763 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9BB0B202E601577D9D4B063B /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET
+  make -f /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET
+  make -f /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET
+  make -f /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET
+  make -f /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E95B8D9277D4D40870AD407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9D00CFF9E84AAF9E7E7ECC /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/detector_yolo_inference.cpp */,
+				85486D4CBC324695849C0FDC /* /Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection/utils.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2381C78D2F484DF5A4BA86E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B4DCFD337B36882504AD70A /* ZERO_CHECK */;
+			targetProxy = 66FE4EFE3BFA43469C02A868 /* PBXContainerItemProxy */;
+		};
+		4215146839884EC0ADDD78CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B4DCFD337B36882504AD70A /* ZERO_CHECK */;
+			targetProxy = BF12F639587045B3B93CE401 /* PBXContainerItemProxy */;
+		};
+		6F4A8873C0FB4D0D963F06D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF05CF0AAC57482907036E4E /* Detection */;
+			targetProxy = 71DB6E5BE8F944A68B29E556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08B1C5D0E52942B492C04B74 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection",/usr/local/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' -fPIC -Xclang -fopenmp -I/opt/homebrew/opt/libomp/include ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Detection;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include/ncnn,/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/build/Detection.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1A90F1F7DC1144078D36EFCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/build";
+			};
+			name = Release;
+		};
+		28EC315430BB4ECF9F622286 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2D8B2E0C6A8C480F85BAD79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2E73E2E880904AC1B87EF53B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4A3FC22088CC4E388E455D2E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection",/usr/local/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++20' -fPIC -Xclang -fopenmp -I/opt/homebrew/opt/libomp/include ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Detection;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include/ncnn,/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/build/Detection.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		557B634325C04B82BC2643F7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6973ED28D1284391B76A8B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SYMROOT = "/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/build";
+			};
+			name = Debug;
+		};
+		6BE795921FBD4065ADB4B193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection",/usr/local/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' -fPIC -Xclang -fopenmp -I/opt/homebrew/opt/libomp/include ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Detection;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include/ncnn,/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/build/Detection.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7D55141099184A7F8AC4A211 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/build";
+			};
+			name = RelWithDebInfo;
+		};
+		A39C8A7270CB43DA8965199C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/DET/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/detection",/usr/local/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++20' -fPIC -Xclang -fopenmp -I/opt/homebrew/opt/libomp/include ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Detection;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include/ncnn,/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/build/Detection.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A5F40942D09D4584A8008D24 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E45BAFC2650A40DA8A3DC9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E99EFBB8164447C794BDCDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F42A0E48517A4DA2844A51DE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build_test/build";
+			};
+			name = MinSizeRel;
+		};
+		F6ACE15618DB44F784B44577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499FE56D7E8849F39284F643 /* Build configuration list for PBXProject "Detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6973ED28D1284391B76A8B6D /* Debug */,
+				1A90F1F7DC1144078D36EFCF /* Release */,
+				F42A0E48517A4DA2844A51DE /* MinSizeRel */,
+				7D55141099184A7F8AC4A211 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C270F1CF168D4811BE12D874 /* Build configuration list for PBXNativeTarget "Detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39C8A7270CB43DA8965199C /* Debug */,
+				6BE795921FBD4065ADB4B193 /* Release */,
+				08B1C5D0E52942B492C04B74 /* MinSizeRel */,
+				4A3FC22088CC4E388E455D2E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE9078351C464A168DCE0CE2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D8B2E0C6A8C480F85BAD79B /* Debug */,
+				F6ACE15618DB44F784B44577 /* Release */,
+				28EC315430BB4ECF9F622286 /* MinSizeRel */,
+				557B634325C04B82BC2643F7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F5F362B0F1994301AC55D5FA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99EFBB8164447C794BDCDE0 /* Debug */,
+				E45BAFC2650A40DA8A3DC9A4 /* Release */,
+				A5F40942D09D4584A8008D24 /* MinSizeRel */,
+				2E73E2E880904AC1B87EF53B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37DE814244AC4CD78BDD926F /* Project object */;
+}

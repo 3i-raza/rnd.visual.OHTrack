@@ -1,0 +1,6 @@
+/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build2/CMakeFiles/det_demo.dir
+/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build2/CMakeFiles/edit_cache.dir
+/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build2/CMakeFiles/rebuild_cache.dir
+/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build2/DET/CMakeFiles/Detection.dir
+/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build2/DET/CMakeFiles/edit_cache.dir
+/Users/3i-a1-2022-062/workspace/yolo11_track/rnd.ml.object-detection/demo/linux/build2/DET/CMakeFiles/rebuild_cache.dir
